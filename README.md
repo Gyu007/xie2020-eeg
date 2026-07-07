@@ -4,7 +4,7 @@ This repository was created to reproduce experiments in [Visual Imagery and Perc
 ## Data Download
 Data is provided at [https://osf.io/ykp9w/](https://osf.io/ykp9w/overview).
 To download, run the command below.
-'''
+```
 chmod +x data_download.sh
 ./data_download.sh
-'''
+```
