@@ -57,12 +57,11 @@ for SUB_DIR in "${DIRECTORIES[@]}"; do
         [ -e "$tar_file" ] || continue
         
         base_name=$(basename "$tar_file" .tar)
-        target_dir="$DIR/$base_name"
-        
-        mkdir -p "$target_dir"
-        
-        if tar -xf "$tar_file" -C "$target_dir"; then
-            echo "    [Success] Created folder $base_name and extracted -> deleted original $(basename "$tar_file")"
+
+        # The tar archive already contains a top-level "$base_name" folder,
+        # so extract directly into "$DIR" instead of creating an extra nested folder.
+        if tar -xf "$tar_file" -C "$DIR"; then
+            echo "    [Success] Extracted $base_name -> deleted original $(basename "$tar_file")"
             rm "$tar_file"
         else
             echo "    [Failed] Error occurred while extracting $tar_file"
