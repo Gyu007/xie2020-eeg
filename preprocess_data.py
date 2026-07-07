@@ -26,7 +26,6 @@ class Config:
     def __post_init__(self):
         self.path = Path(self.path) 
 
-
 def run_tf_analysis(
     data_epochs: mne.EpochsArray,
     freqs: np.ndarray,
@@ -163,10 +162,6 @@ def get_mne_info(config: Any) -> Tuple[mne.Info, Any, List[str]]:
     info.set_montage(montage)
     
     return info, montage, mne_standard_names
-
-import numpy as np
-import scipy.io as spio
-import mne
 
 def preprocess_subject(
     subject: str,
