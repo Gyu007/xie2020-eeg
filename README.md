@@ -13,7 +13,9 @@ conda activate neuro
 pip install -r requirements.txt
 ```
 
-## Data Download
+## Data available
+
+### Download
 Data is provided at [https://osf.io/ykp9w/](https://osf.io/ykp9w/overview).
 To download, run the command below.
 ```
@@ -21,7 +23,14 @@ chmod +x data_download.sh
 ./data_download.sh
 ```
 
-## Data Preprocessing
+### Subject file list
+```subj*
+├── img.mat            # Imagery EEG
+├── info_channel.mat   # EEG Channel Information
+└── per.mat            # Perception EEG
+```
+
+## Data preprocessing
 Run the script below for preprocessing. `preprocess_data.py` applies Morlet wavelet time-frequency analysis and</br>
 baseline dB normalization to raw EEG data, then crops and downsamples the result before saving it as a `.npy` file.
 ```
