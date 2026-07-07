@@ -12,5 +12,6 @@ chmod +x data_download.sh
 
 ## Reference
 ```
-Xie, Siying, Daniel Kaiser, and Radoslaw M. Cichy. "Visual imagery and perception share neural representations in the alpha frequency band." Current Biology 30.13 (2020): 2621-2627.
+Xie, Siying, Daniel Kaiser, and Radoslaw M. Cichy.
+"Visual imagery and perception share neural representations in the alpha frequency band." Current Biology 30.13 (2020): 2621-2627.
 ```
