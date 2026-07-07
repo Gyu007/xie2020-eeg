@@ -1,5 +1,5 @@
 # xie2020-eeg
-This repository was created to reproduce experiments in <\br>
+This repository was created to reproduce experiments in</br>
 [Visual Imagery and Perception Share Neural Representations in the Alpha Frequency Band](https://www.sciencedirect.com/science/article/pii/S096098222030590X)
 
 ## Data Download
