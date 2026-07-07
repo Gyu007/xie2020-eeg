@@ -1,2 +1,10 @@
 # xie2020-eeg
-[Visual Imagery and Perception Share Neural Representations in the Alpha Frequency Band](https://www.sciencedirect.com/science/article/pii/S096098222030590X)의 실험 재현을 위해 만들어졌습니다.
+This repository was created to reproduce experiments in [Visual Imagery and Perception Share Neural Representations in the Alpha Frequency Band](https://www.sciencedirect.com/science/article/pii/S096098222030590X)
+
+## Data Download
+Data is provided at [https://osf.io/ykp9w/](https://osf.io/ykp9w/overview).
+To download, run the command below.
+'''
+chmod +x data_download.sh
+./data_download.sh
+'''
