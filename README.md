@@ -23,14 +23,34 @@ chmod +x data_download.sh
 ./data_download.sh
 ```
 
-### Subject file list
+### Directory
+```
+data
+├── PreprocData
+│   ├── subj01
+│   │   ├── img.mat            # Imagery EEG
+│   │   ├── info_channel.mat   # EEG Channel Information
+│   │   └── per.mat            # Perception EEG
+│   ├── subj02
+│   ├── ...
+│   ├── subj38
+│   └── channel_labels.mat
+├── RawData
+│   ├── subj01
+│   │   ├── img   # Imagery
+│   │   │   ├── xxx.eeg   # binary data file, containing the voltage values of the EEG
+│   │   │   ├── xxx.vhdr  # text header file, containing the meta data
+│   │   │   └── xxx.vmrk  # text marker file, containing information about events
+│   │   └── per   # Perception
+│   │   │   ├── xxx.eeg
+│   │   │   ├── xxx.vhdr
+│   │   │   └── xxx.vmrk
+│   ├── subj02
+│   ├── ...
+│   └── subj38
+└── readme.txt   # Data Description
+```
 
-```
-subj*
-├── img.mat            # Imagery EEG
-├── info_channel.mat   # EEG Channel Information
-└── per.mat            # Perception EEG
-```
 
 ## Data preprocessing
 Run the script below for preprocessing. `preprocess_data.py` applies Morlet wavelet time-frequency analysis and</br>
