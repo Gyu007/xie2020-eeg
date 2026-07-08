@@ -51,6 +51,23 @@ data
 └── 📄 readme.txt   # Data Description
 ```
 
+### Issue
+
+| Subject | Perception | Imagery |
+|---|---|---|
+| `subj06` | 80 | 78 |
+| `subj11` | 80 | 79 |
+| `subj20` | 80 | 57 |
+| `subj32` | 80 | 78 |
+| `subj33` | 80 | 79 |
+
+- **Add up** the number of trials in 2 sessions
+- It is unclear **how many trials came from which sessions**.
+- This can be found only by **analyzing raw eeg**.
+
+> ⚠️ **Missing Data**
+> - Remove subj12, subj37 (PreprocData)
+
 
 ## Data preprocessing
 Run the script below for preprocessing. This step operates on `PreprocData` (already filtered/ICA-cleaned),</br>
