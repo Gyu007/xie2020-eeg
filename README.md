@@ -5,7 +5,7 @@ This repository was created to reproduce experiments in</br>
 ## Environment Setting
 1. Create environment
 ```
-conda create neuro python=3.10
+conda create -n neuro python=3.10
 conda activate neuro
 ```
 2. Install libraries

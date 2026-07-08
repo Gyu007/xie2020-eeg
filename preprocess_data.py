@@ -261,7 +261,7 @@ def main():
     info, montage, mne_standard_names = get_mne_info(config)
 
     save_dir = config.path.parent
-    montage_save_path = save_dir / f"montage.fif"
+    montage_save_path = save_dir / f"montage-dig.fif"
     montage.save(str(montage_save_path), overwrite=True, verbose=False)
     print(f"💾 Saved standard montage metadata to: {montage_save_path}")
 
