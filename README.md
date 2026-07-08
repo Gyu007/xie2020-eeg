@@ -51,7 +51,7 @@ data
 └── 📄 readme.txt   # Data Description
 ```
 
-### Issue
+### PreprocData Issue
 
 | Subject | Perception | Imagery |
 |---|---|---|
@@ -63,10 +63,10 @@ data
 
 - **Add up** the number of trials in 2 sessions
 - It is unclear **how many trials came from which sessions**.
-- This can be found only by **analyzing raw eeg**.
+- This can be found only by **analyzing** `RawData`.
 
 > ⚠️ **Missing Data**
-> - Remove subj12, subj37 (PreprocData)
+> - Remove subj12, subj37
 
 
 ## Data preprocessing
