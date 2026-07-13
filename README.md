@@ -86,7 +86,7 @@ python preprocess_data.py
 
 ## MVPA Cross Decoding
 Cross decoding experiments are possible in `binary_classification_mvpa.ipynb`.</br>
-It supports experiments on three bands by changing the `band`.
+It supports experiments on three bands by changing the `band (theta, alpha, beta)`.
 
 ## Result
 - Theta (5-7 Hz)
@@ -97,6 +97,9 @@ It supports experiments on three bands by changing the `band`.
 
 - Beta (14-31 Hz)
 ![Beta](assets/result_beta.png)
+
+The shared neural representation between Perception and Imagery is observed only in the alpha band (8-13 Hz), consistent with the paper.
+> ⚠️ However, because the implementation code is different, the time interval in which the shared expression appears may differ from the paper.
 
 ## Reference
 ```
