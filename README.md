@@ -92,13 +92,13 @@ It supports experiments on three bands by changing the `band (theta, alpha, beta
 - Theta (5-7 Hz)
 ![Theta](assets/result_theta.png)
 
-- Alpha (8-13 Hz)
+- **Alpha (8-13 Hz)**
 ![Alpha](assets/result_alpha.png)
 
 - Beta (14-31 Hz)
 ![Beta](assets/result_beta.png)
 
-The shared neural representation between Perception and Imagery is observed only in the alpha band (8-13 Hz), consistent with the paper.
+The shared neural representation between Perception and Imagery is observed only in the **alpha band (8-13 Hz)**, consistent with the paper.
 > ⚠️ However, because the implementation code is different, the time interval in which the shared expression appears may differ from the paper.
 
 ## Reference
